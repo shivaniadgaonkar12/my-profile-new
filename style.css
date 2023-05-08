@@ -5,6 +5,40 @@
     box-sizing: border-box;
     list-style-type: none;
 }
+
+.summary{
+    margin-top: 30px;
+}
+.summary h2{
+    color: #0D5C63;  
+}
+.summary ul li{
+    padding:10px 0px;
+    color: #0D5C63; 
+    font-weight: bolder;
+}
+.summary ul li::before{
+    content: '✍️';
+    font-size: larger;
+    padding-right: 20px;
+}
+.summary ul li::selection{
+    background-color: rgb(204, 181, 140);
+}
+
+
+.techStackSection h4{
+    color: #0D5C63;
+    }
+#techStackSection h4 {
+    margin-top: 3%;
+     color: black;
+     background:lightgray;
+}
+#techStackSection tbody{
+display: block;
+
+}
 .container{
     margin-left: 5%;
     margin-right: 5%;
@@ -53,40 +87,28 @@ header nav ul li a{
     letter-spacing: 2px;
     padding-top: 10px;
 }
-.summary{
-    margin-top: 30px;
-}
-.summary h2{
-    color: #0D5C63;  
-}
-.summary ul li{
-    padding:10px 0px;
-    color: #0D5C63; 
+
+
+#educationDetails  h4{
+    color:#0D5C63;
+    font-size: large;
     font-weight: bolder;
+    background-color:lightcyan ;
 }
-.summary ul li::before{
-    content: '✍️';
-    font-size: larger;
-    padding-right: 20px;
-}
-.summary ul li::selection{
-    background-color: rgb(204, 181, 140);
+#educationDetails thead th{
+margin-top: 20px;
+
+padding: 10px 10px;
+background-color: rgb(72, 71, 71);
+color:white;
 }
 
-.education h2{
-    color: #0D5C63; 
-    font-weight: bolder;
-    margin-top: 20px;
-}
-.education table,th,tr,td{
-    border: 1px solid #0D5C63;
-    border-collapse: collapse;
-}
-
-.education table th, td{
+#educationDetails table  td{
+    border-color:black ;
+    background: #F2F2F2;
     padding: 10px;
 }
-
-.techStackSection h4{
-color:#0D5C63
+.persnoaldetails h2{
+    color:#0D5C63;
+    background-color:lightcyan;
 }
